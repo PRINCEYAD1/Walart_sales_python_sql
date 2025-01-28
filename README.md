@@ -1,4 +1,5 @@
 #Walmart Data Analysis: End-to-End SQL + Python Project 
+
 ##Project Steps
 
 ###1. Set Up the Environment
