@@ -2,10 +2,8 @@
 
 ## Project Overview
 
-![Project Pipeline]([https://github.com/najirh/Walmart_SQL_Python/blob/main/walmart_project-piplelines.png)
-
-](https://github.com/PRINCEYAD1/Walart_sales_python_sql/blob/main/Walmart%20Project.png)
-This project is an end-to-end data analysis solution designed to extract critical business insights from Walmart sales data. We utilize Python for data processing and analysis, SQL for advanced querying, and structured problem-solving techniques to solve key business questions. The project is ideal for data analysts looking to develop skills in data manipulation, SQL querying, and data pipeline creation.
+![Project Pipeline]
+critical business insights from Walmart sales data. We utilize Python for data processing and analysis, SQL for advanced querying, and structured problem-solving techniques to solve key business questions. The project is ideal for data analysts looking to develop skills in data manipulation, SQL querying, and data pipeline creation.
 
 ---
 
@@ -16,20 +14,19 @@ This project is an end-to-end data analysis solution designed to extract critica
    - **Goal**: Create a structured workspace within VS Code and organize project folders for smooth development and data handling.
 
 ### 2. Set Up Kaggle API
-   - **API Setup**: Obtain your Kaggle API token from [Kaggle](https://www.kaggle.com/) by navigating to your profile settings and downloading the JSON file.
+   - **API Setup**: Obtain your Kaggle API token by navigating to your profile settings and downloading the JSON file.
    - **Configure Kaggle**: 
       - Place the downloaded `kaggle.json` file in your local `.kaggle` folder.
       - Use the command `kaggle datasets download -d <dataset-path>` to pull datasets directly into your project.
 
 ### 3. Download Walmart Sales Data
    - **Data Source**: Use the Kaggle API to download the Walmart sales datasets from Kaggle.
-   - **Dataset Link**: [Walmart Sales Dataset](https://www.kaggle.com/najir0123/walmart-10k-sales-datasets)
    - **Storage**: Save the data in the `data/` folder for easy reference and access.
 
 ### 4. Install Required Libraries and Load Data
    - **Libraries**: Install necessary Python libraries using:
      ```bash
-     pip install pandas numpy sqlalchemy mysql-connector-python psycopg2
+     pip install pandas Numpy,Pandas sqlalchemy MySQL-connector-python psycopg2
      ```
    - **Loading Data**: Read the data into a Pandas DataFrame for initial analysis and transformations.
 
@@ -78,33 +75,8 @@ This project is an end-to-end data analysis solution designed to extract critica
 - **SQL Databases**: MySQL, PostgreSQL
 - **Python Libraries**:
   - `pandas`, `numpy`, `sqlalchemy`, `mysql-connector-python`, `psycopg2`
-- **Kaggle API Key** (for data downloading)
 
-## Getting Started
 
-1. Clone the repository:
-   ```bash
-   git clone <repo-url>
-   ```
-2. Install Python libraries:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Set up your Kaggle API, download the data, and follow the steps to load and analyze.
-
----
-
-## Project Structure
-
-```plaintext
-|-- data/                     # Raw data and transformed data
-|-- sql_queries/              # SQL scripts for analysis and queries
-|-- notebooks/                # Jupyter notebooks for Python analysis
-|-- README.md                 # Project documentation
-|-- requirements.txt          # List of required Python libraries
-|-- main.py                   # Main script for loading, cleaning, and processing data
-```
----
 
 ## Results and Insights
 
@@ -117,7 +89,7 @@ This section will include your analysis findings:
 
 Possible extensions to this project:
 - Integration with a dashboard tool (e.g., Power BI or Tableau) for interactive visualization.
-- Additional data sources to enhance analysis depth.
+- Additional data sources are needed to enhance the depth of analysis.
 - Automation of the data pipeline for real-time data ingestion and analysis.
 
 ---
